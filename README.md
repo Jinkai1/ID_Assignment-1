@@ -1,1 +1,13 @@
-# ID_Assignment-1
+For this assignment, using Visual Studio Code, I have created a personal portfolio website from scratch using HTML, CSS, Javascript and modern web development techniques.
+
+The homepage shows a navigation bar that allows users to check out my education, learning plan, contacts and learn more about me. The homebar has an animated wordplay that helps me to introduce myself with a "Hello, I am Jinkai" which was made using java script and adjusting the speed of the text. There is also a picture of me on the right side so that the audience can easily picture what i look like that was made using image source to the jpg of my face and adjusting the size of the picture.
+
+On the About me, I introduce myself starting off with a paragraph about me, and then onto a paragraph about which values i strongly believe in, followed by what my favourite hobbies are. Here i pretty much just used class to make "containers" for me to write in.
+
+Next, onto the education page, i introduce what ive achieved during primary school and secondary school. This includes things like my GCE-O level Nett score and PSLE Score to things like achieving a silver medal for NYAA, also known as the National Youth Achievement Award. And to top off my educaton page, as i have not yet achieved much in my year 1 of poly, i show list the skills i have learnt throughout this 1 year, such as using python/C sharp to code and using Visual Studio Code to make my very own website from scratch. I also put a link for all three school websites that i've studied in or am currently studying in so that the audience can visit the school website if they are interested in it. I did the same thing with classes but for the links i used hrefs to put the url of each school website link.
+
+Next, i show my learning plan which is basically what my goal/what i want my future job to be, what it entails and why i decided that this was what i wanted my future job to be. And i tried my best to say how i can achieve this goal of mine.
+
+Last but not least, my website contains a contact me page so that any audience with more inquiries/questions or just want to hit me up can contact me if they want to do so. They can put their name, contact number, email adress and the inquiry that they have so i can read and saved their contacts/names as well. To finish it all off, i left my linked in link that users can click on to visit my personal LinkedIn page if they are interested in doing so.
+
+Credits: Most of where i learnt were from both my lecturer and the w3school website.

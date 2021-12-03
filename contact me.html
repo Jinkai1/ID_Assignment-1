@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="homestyle.css" type = "text/css">
+    <script src="typewriter.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Contact me</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;    
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid rgb(250, 255, 177);
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: rgb(250, 255, 177);
+  color: rgb(7, 7, 7);
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: rgb(250, 255, 177);
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: rgb(250, 255, 177);
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+</style>
+</head>
+
+
+<body onload="typeWriter()">
+    <div class="navigation bar">
+        <nav>
+            <ul>
+                <li><a class="active" href="Index.html"><i class="fa fa-fw fa-home"></i>Home</a></li>
+                <li><a href="about me.html"><i class="fa fa-user"></i> About me</a></li>
+                <li><a href="education.html"><i class="fa fa-graduation-cap"></i> Education</a></li>
+                <li><a href="learning plan.html"><i class="fa fa-list-alt"></i> Learning Plan</a></li>
+                <li><a href="contact me.html"><i class="fa fa-fw fa-envelope"></i>Contact me</a></li>
+            </ul>
+        </nav>
+    </div>
+
+<h2>Feel free to contact me here for any inquiries you might have</h2>
+
+<div class="container">
+  
+    <h2>Contact me</h2>
+    <p>Hit me up for fun</p>
+  </div>
+  <div class="row">
+    <div style="text-align:center">
+    </div>
+    <div class="column">
+        <div style="text-align:center"></div>
+      <form action="/action_page.php">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name..">
+        <label for="number">Contact number</label>
+        <input type="text" id="number" name="contact number" placeholder="Your contact number..">
+
+        <label for="email">Email Address</label>
+        <input type="text" id="email" name="Email Adress" placeholder="Your email address..">
+
+        <label for="subject">Inquiry</label>
+        <textarea id="subject" name="subject" placeholder="Hit me up with anything you're interested in" style="height:90px"></textarea>
+        <input type="submit" value="Submit">
+        <img src="Linked in logo.jpg" alt="Linked in logo" width="30" height="30">>  
+        <a href="https://www.linkedin.com/in/jinkaihere">Visit my LinkdIn now!</a>
+      </form>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
